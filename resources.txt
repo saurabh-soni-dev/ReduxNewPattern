@@ -1,0 +1,8 @@
+#step1
+npm i react-native-gesture-handler react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view npm install @react-navigation/native @react-navigation/stack @react-native-async-storage/async-storage react-redux axios redux redux-persist redux-thunk react-native-svg react-native-snackbar react-native-splash-screen babel-plugin-module-resolver react-native-localize react-native-localization
+
+#step2
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: ['react-native-reanimated/plugin'],
+};
